@@ -123,7 +123,7 @@ export const projects = [
     subtitle: 'Calcul coefficients aérodynamiques',
     description: 'Calcul précis de coefficients de portance et traînée via simulations CFD avancées.',
     fullDescription: 'Projet de simulation CFD avancée pour l\'analyse aérodynamique et le calcul de coefficients de portance et traînée. Utilisation d\'ANSYS Fluent pour modélisation écoulements complexes.',
-    image: MEDIA_URLS.projects.cfd, // ← URL Cloudinary
+    image: "https://res.cloudinary.com/dtzow5aii/image/upload/v1762951937/cfd_nkhc7i.png", // ← URL Cloudinary
     duration: '2 mois',
     team: 'Binôme',
     impact: 'Précision 98%',
@@ -200,7 +200,7 @@ export const designs3D = [
     category: 'Aéronautique',
     year: '2024',
     complexity: 'Expert',
-    image: MEDIA_URLS.designs.fuselage, // ← URL Cloudinary
+    image: "https://res.cloudinary.com/dtzow5aii/image/upload/v1762966143/fuselage_oappf5.jpg", // ← URL Cloudinary
     video: MEDIA_URLS.videos.fuselage, // ← URL Cloudinary
     emoji: '✈️',
     color: 'from-blue-500 to-cyan-500',
@@ -230,7 +230,7 @@ export const designs3D = [
     category: 'Transmission',
     year: '2024',
     complexity: 'Intermédiaire',
-    image: MEDIA_URLS.designs.engrenageConique, // ← URL Cloudinary
+    image: "https://res.cloudinary.com/dtzow5aii/image/upload/v1762966150/engrenage_conique_k1vk4o.jpg", // ← URL Cloudinary
     video: MEDIA_URLS.videos.engrenageConique, // ← URL Cloudinary
     emoji: '⚙️',
     color: 'from-orange-500 to-red-500',
@@ -260,7 +260,7 @@ export const designs3D = [
     category: 'Transmission',
     year: '2024',
     complexity: 'Intermédiaire',
-    image: MEDIA_URLS.designs.engrenagedroit, // ← URL Cloudinary
+    image: "https://res.cloudinary.com/dtzow5aii/image/upload/v1762966162/engrenage_droit_xdepzj.jpg", // ← URL Cloudinary
     video: MEDIA_URLS.videos.engrenagedroit, // ← URL Cloudinary
     emoji: '⚙️',
     color: 'from-yellow-500 to-orange-500',
