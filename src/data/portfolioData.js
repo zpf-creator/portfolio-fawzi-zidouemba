@@ -363,35 +363,35 @@ export const education = [
 export const cvVersions = [
   { 
     name: 'CV Aéronautique', 
-    file: MEDIA_URLS.cvs.aeronautique, // ← URL Cloudinary
+    file: "/cv aero/cv_Fawzi_ZIDOUEMBA.pdf", // ← URL Cloudinary
     icon: '✈️', 
     color: 'from-blue-500 to-cyan-500',
     description: 'Spécialisé conception aéronautique'
   },
   { 
     name: 'CV Automobile', 
-    file: MEDIA_URLS.cvs.automobile, // ← URL Cloudinary
+    file: "/cv aero/cv_Fawzi_ZIDOUEMBA.pdf", // ← URL Cloudinary
     icon: '🚗', 
     color: 'from-green-500 to-emerald-500',
     description: 'Spécialisé automobile & mobilité'
   },
   { 
     name: 'CV Simulation', 
-    file: MEDIA_URLS.cvs.simulation, // ← URL Cloudinary
+    file: "/cv aero/cv_Fawzi_ZIDOUEMBA.pdf", // ← URL Cloudinary
     icon: '💨', 
     color: 'from-purple-500 to-pink-500',
     description: 'Spécialisé CFD/FEA'
   },
   { 
     name: 'CV Production', 
-    file: MEDIA_URLS.cvs.production, // ← URL Cloudinary
+    file: "/cv aero/cv_Fawzi_ZIDOUEMBA.pdf", // ← URL Cloudinary
     icon: '⚙️', 
     color: 'from-orange-500 to-red-500',
     description: 'Spécialisé production industrielle'
   },
   { 
     name: 'CV Bureau d\'Études', 
-    file: MEDIA_URLS.cvs.bureauEtude, // ← URL Cloudinary
+    file: "/cv aero/cv_Fawzi_ZIDOUEMBA.pdf", // ← URL Cloudinary
     icon: '📐', 
     color: 'from-yellow-500 to-orange-500',
     description: 'Spécialisé bureau d\'études'
