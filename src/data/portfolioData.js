@@ -11,8 +11,7 @@ export const projects = [
     subtitle: 'Optimisation structurale d\'un fuselage d\'avion',
     description: 'Projet majeur de conception et optimisation d\'une section de fuselage pour améliorer l\'efficacité structurale et réduire la masse de 15%.',
     fullDescription: 'Projet académique majeur de conception aérospatiale réalisé en équipe. Conception complète d\'une section de fuselage d\'avion avec approche multidisciplinaire intégrant CAO, simulations avancées et optimisation.',
-    image: MEDIA_URLS.projects.skillup, // ← URL Cloudinary
-    video: MEDIA_URLS.videos.fuselage, // ← URL Cloudinary
+    image: "https://res.cloudinary.com/dtzow5aii/image/upload/v1763141284/skillup_zcprhk.jpg", // ← URL Cloudinary
     duration: '4 mois',
     team: '4 personnes',
     impact: '-15% masse',
@@ -160,7 +159,7 @@ export const projects = [
     subtitle: 'Stage initiation - Fabrication',
     description: 'Conception complète, gamme d\'usinage et fabrication d\'un engrenage conique.',
     fullDescription: 'Stage d\'initiation pratique en atelier de fabrication mécanique. Conception complète d\'un engrenage conique à denture droite, élaboration gamme d\'usinage et fabrication.',
-    image: MEDIA_URLS.designs.engrenageConique, // ← URL Cloudinary
+    image: "https://res.cloudinary.com/dtzow5aii/image/upload/v1762966150/engrenage_conique_k1vk4o.jpg", // ← URL Cloudinary
     duration: '1 mois',
     team: 'Individuel',
     impact: '100% conforme',
@@ -200,12 +199,12 @@ export const designs3D = [
     category: 'Aéronautique',
     year: '2024',
     complexity: 'Expert',
-    image: "https://res.cloudinary.com/dtzow5aii/image/upload/v1762966143/fuselage_oappf5.jpg", // ← URL Cloudinary
-    video: MEDIA_URLS.videos.fuselage, // ← URL Cloudinary
-    emoji: '✈️',
+    video: "https://res.cloudinary.com/dtzow5aii/video/upload/v1763152686/CATIA_V5_-_fuselage_x0olot.mp4", // ← URL Cloudinary
+    
     color: 'from-blue-500 to-cyan-500',
     description: 'Modélisation complète d\'une section de fuselage d\'avion avec optimisation topologique',
     fullDescription: 'Conception avancée d\'une section de fuselage utilisant les fonctionnalités avancées de CATIA V5. Modélisation surfacique complexe avec contraintes aérodynamiques et structurelles. Optimisation de la masse tout en maintenant l\'intégrité structurelle.',
+    emoji: '✈️',
     features: [
       'Modélisation surfacique avancée',
       'Assemblage multi-pièces (50+ composants)',
@@ -231,11 +230,11 @@ export const designs3D = [
     year: '2024',
     complexity: 'Intermédiaire',
     image: "https://res.cloudinary.com/dtzow5aii/image/upload/v1762966150/engrenage_conique_k1vk4o.jpg", // ← URL Cloudinary
-    video: MEDIA_URLS.videos.engrenageConique, // ← URL Cloudinary
-    emoji: '⚙️',
+    
     color: 'from-orange-500 to-red-500',
     description: 'Conception et simulation d\'un système d\'engrenages coniques',
     fullDescription: 'Modélisation précise d\'engrenages coniques avec calculs de résistance et simulation cinématique. Respect normes ISO pour denture et tolérances. Validation par analyse de contact FEA.',
+    emoji: '⚙️',
     features: [
       'Calculs géométriques précis',
       'Simulation cinématique complète',
@@ -261,11 +260,12 @@ export const designs3D = [
     year: '2024',
     complexity: 'Intermédiaire',
     image: "https://res.cloudinary.com/dtzow5aii/image/upload/v1762966162/engrenage_droit_xdepzj.jpg", // ← URL Cloudinary
-    video: MEDIA_URLS.videos.engrenagedroit, // ← URL Cloudinary
-    emoji: '⚙️',
+     // ← URL Cloudinary
+    
     color: 'from-yellow-500 to-orange-500',
     description: 'Engrenage cylindrique à denture droite pour transmission mécanique',
     fullDescription: 'Design classique d\'engrenage droit avec optimisation du profil de denture pour réduire le bruit et l\'usure.',
+    emoji: '⚙️',
     features: [
       'Profil de denture optimisé',
       'Analyse de contact Hertz',

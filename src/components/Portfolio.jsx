@@ -820,7 +820,7 @@ const Portfolio = () => {
               © 2024 Pengdwende Fawzi Zidouemba. Tous droits réservés.
             </div>
             <div className="flex gap-6">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-all hover:scale-110">
+              <a href="https://www.linkedin.com/in/fawzi-pengdwende-zidouemba-7b45712b7/" className="text-gray-400 hover:text-blue-400 transition-all hover:scale-110">
                 <Linkedin className="w-5 h-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-all hover:scale-110">
